@@ -29,3 +29,10 @@ build-finetune-llm
 `finetuning_summarization.ipynb`: Notebook for finetuning model on summarization on CNN Daily Mail data.
 
 `pretraining.ipynb`: Notebook for training attention-based transformer model on OpenWebText data.
+
+## How to Run Code
+
+For running either or pretrained or finetuned model checkpoints, load the checkpoints from the `checkpoints` folder. The Jupyter notebooks contain the relevant code for recreating the transformer architecture from scratch. Here are the datasets that were used
+* **OpenWebText Dataset:** https://openwebtext2.readthedocs.io/en/latest/
+* **SquadQA Dataset:** https://huggingface.co/datasets/squad
+* **CNN DailyMail Dataset: **https://huggingface.co/datasets/cnn_dailymail
