@@ -16,7 +16,7 @@ build-finetune-llm
 
 ## File Directory Contents
 
-`baseline_model_weights.pth`: Checkpointed model weights from pretraining. This model received a 3.4 validation loss after twenty epochs of training. The model architecture is as follows: ![model architecture](images.png)
+`baseline_model_weights.pth`: Checkpointed model weights from pretraining. This model received a 3.4 validation loss after twenty epochs of training. The model architecture is as follows: ![model architecture](https://github.com/karthikm15/build-finetune-llm/blob/main/images/Deep%20Learning%20Architecture.png)
 
 `finetuning_qa.ipynb`: Notebook for finetuning pretrained model on question answering for the Stanford QA dataset.
 
